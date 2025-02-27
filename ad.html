@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Muchos Anuncios</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        .ad-banner {
+            width: 100%;
+            height: 100px;
+            background: red;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            position: fixed;
+            left: 0;
+        }
+        .top-ad { top: 0; }
+        .bottom-ad { bottom: 0; }
+        .side-ad {
+            width: 160px;
+            height: 600px;
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .left-ad { left: 0; }
+        .right-ad { right: 0; }
+        .adsense {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-banner top-ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1025508682627284" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1025508682627284" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    
+    <div class="ad-banner bottom-ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1025508682627284" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1025508682627284" data-ad-slot="2222222222" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    
+    <div class="side-ad left-ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1025508682627284" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1025508682627284" data-ad-slot="3333333333" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    
+    <div class="side-ad right-ad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1025508682627284" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1025508682627284" data-ad-slot="4444444444" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    
+    <div style="margin: 150px; text-align: center; font-size: 24px;">
+        <p>Bienvenido a la peor experiencia web de la historia.</p>
+        <p>¡Intenta navegar sin distraerte!</p>
+    </div>
+    
+    <div class="adsense">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1025508682627284" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block; width: 300px; height: 250px;" data-ad-client="ca-pub-1025508682627284" data-ad-slot="5555555555" data-ad-format="rectangle" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</body>
+</html>
